@@ -1,0 +1,7 @@
+// prj6220 
+// benchmark ArangoDB 1 levels
+
+FOR doc1 IN rate
+
+        FILTER doc1._from == 'users/5929'
+        RETURN { doc1 }

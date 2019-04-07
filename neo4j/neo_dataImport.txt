@@ -1,0 +1,7 @@
+LOAD CSV WITH HEADERS FROM " /var/lib/neo4j/import/soc-sign-bitcoinotc.csv" AS row
+MERGE (u:RateUser {userId: row.SOURCE})
+WITH *
+MATCH (u1:RateUser {userId: row.TARGET})
+CREATE (u)-[r:RATED]->(u1)
+SET r.rating = toInt(row.RATING),
+    r.timestamp = row.TIME;

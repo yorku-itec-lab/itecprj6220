@@ -1,0 +1,18 @@
+{
+  "source": { "file": { "path": "/home/johnwill4a/bitcoinotc.csv" } },
+  "extractor": { "csv": {} },
+  "transformers": [
+    { "vertex": { "class": "RateUsersTmp1" } }
+  ],
+  "loader": {
+    "orientdb": {
+       "dbURL": "plocal:/home/johnwill4a/dbbenchmark/orientdb-3.0.17/databases/bitcoin",
+       "dbType": "graph",
+       "classes": [
+         {"name": "RateUsersTmp1", "extends": "V"}
+	], "indexes": [
+         {"class":"RateUsersTmp1", "fields":["id:integer"], "type":"UNIQUE" }
+       ]
+    }
+  }
+}

@@ -1,0 +1,53 @@
+############################################################
+# This is provided for York University ITEC6220 project.
+# Anyone can use it for benchmark purpose with the 
+# acknowledgement to us.
+# Author: Tian Yang and John Li timyang@yorku.ca
+############################################################
+
+This article documents the details on how to reproduce the graph database benchmark result on ArangoDB. 
+
+Datasets
+=========
+
+Part I Bitcoin Alpha trust weighted signed network 
+
+This is who-trusts-whom network of people who trade using Bitcoin on a platform called Bitcoin Alpha. Since Bitcoin users are anonymous, there is a need to maintain a record of users' reputation to prevent transactions with fraudulent and risky users. Members of Bitcoin Alpha rate other members in a scale of -10 (total distrust) to +10 (total trust) in steps of 1. This is the first explicit weighted signed directed network available for research.
+
+Part II Infrastructure Canada Projects 
+
+Index and search text by using Infrastructure Canada Projects Data. The publisher - Current Organization Name: Infrastructure Canada, This dataset contains a list of infrastructure projects across Canada that have been approved by Infrastructure Canada. The project information listed is based on current information.
+
+
+Hardware & Major enviroment
+============================
+
+Machine type
+n1-standard-1 (1 vCPU, 3.75 GB memory)
+
+CPU platform
+Intel Haswell
+
+
+ArangoDB Version
+=================
+- 3.4.4 Community edition downloaded from https://download.arangodb.com/arangodb34
+
+# install ArangoDB
+# set password="root" for the root user
+
+Scripts and Results under Github
+=================================
+
+https://github.com/yorku-itec-lab/prj6220/tree/master/arangodb
+ 
+Run benchmark 
+==============
+
+Download all files in the README folder to a script folder.
+
+Load Data
+==========
+
+Download dataset in the same folder where all the benchmark files are.
+

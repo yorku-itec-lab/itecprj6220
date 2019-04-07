@@ -1,0 +1,5 @@
+// prj6220 
+// benchmark ArangoDB all
+FOR doc1 IN rate
+
+        RETURN { doc1 }

@@ -1,0 +1,7 @@
+// prj6220 
+// benchmark ArangoDB 2 levels
+FOR doc1 IN rate
+  FOR doc2 IN rate
+
+        FILTER doc1._to == doc2._from and doc1._from == 'users/5929'
+        RETURN { doc1, doc2 }

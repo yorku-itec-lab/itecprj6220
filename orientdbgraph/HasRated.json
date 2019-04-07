@@ -1,0 +1,26 @@
+{
+  "source": { "file": { "path": "/var/lib/neo4j/import/soc-sign-bitcoinotc1.csv" } },
+  "extractor": { "csv": {} },
+  "transformers": [
+    { "vertex": { "class": "RateUsersTmp1"} },
+	{ "merge": { "joinFieldName": "SOURCE", "lookup": "RateUsersTmp1.id" } },
+    { "edge": { "class": "HasRatedTmp1",
+                "joinFieldName": "TARGET",
+                "lookup": "RateUsersTmp1.id",
+				"direction": "in"
+				}
+        }
+  ],
+  "loader": {
+    "orientdb": {
+       "dbURL": "plocal:/home/johnwill4a/dbbenchmark/orientdb-3.0.17/databases/bitcoin",
+       "dbType": "graph",
+       "classes": [
+         {"name": "RateUsersTmp1", "extends": "V"},
+         {"name": "HasRatedTmp1", "extends": "E"}
+       ], "indexes": [
+         {}
+       ]
+    }
+  }
+}

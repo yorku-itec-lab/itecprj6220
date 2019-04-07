@@ -1,0 +1,8 @@
+// prj6220 
+// prj6220 benchmark ArangoDB insert 10
+
+FOR i IN 1..10
+  INSERT {
+    _from: "users/a10",
+    _to: "users/b"
+  } INTO rate

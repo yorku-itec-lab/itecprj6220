@@ -1,0 +1,1 @@
+match (u1:RateUser)-[:RATED]->(u2:RateUser) where u1.ruser_id='5929' return u1,u2;

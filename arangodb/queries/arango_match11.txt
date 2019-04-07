@@ -1,0 +1,6 @@
+// prj6220 
+// arangodb remove 10 added
+FOR r IN rate
+  FILTER r._from  == "users/a10"
+  REMOVE { _key: r._key } IN rate
+  

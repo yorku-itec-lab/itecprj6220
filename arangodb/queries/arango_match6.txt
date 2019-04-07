@@ -1,0 +1,6 @@
+// prj6220 
+// benchmark ArangoDB sort and return top 10
+FOR doc1 IN rate
+  SORT doc1._from 
+  LIMIT 10
+    RETURN { doc1 }

@@ -1,0 +1,8 @@
+// prj6220 
+// benchmark ArangoDB 4 levels
+FOR doc1 IN rate
+  FOR doc2 IN rate
+    FOR doc3 IN rate
+      FOR doc4 IN rate
+        FILTER doc1._to == doc2._from and doc2._to == doc3._from and doc3._to == doc4._from and doc1._from == 'users/5929'
+        RETURN { doc1, doc2, doc3, doc4 }
