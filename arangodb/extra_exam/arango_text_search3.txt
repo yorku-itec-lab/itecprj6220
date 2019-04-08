@@ -1,0 +1,9 @@
+// benchmark ArangoDB a3 levels
+FOR doc1 IN cp
+
+        FILTER (doc1.program like '%National%' or '%Canada%' or '%Toronto%') and
+        doc1.ultimateRecipient like '%Lake%' and
+        doc1.category like '%Public%' and
+        doc1.approvedDate > '2017-01-01'
+        
+        RETURN { doc1 }

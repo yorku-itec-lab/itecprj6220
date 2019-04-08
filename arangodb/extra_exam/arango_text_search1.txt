@@ -1,0 +1,5 @@
+// benchmark ArangoDB a1 levels
+FOR doc1 IN cp
+
+        FILTER doc1.program like '%National%'
+        RETURN { doc1 }
