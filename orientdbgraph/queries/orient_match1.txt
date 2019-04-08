@@ -1,0 +1,1 @@
+connect remote:localhost/bitcoin root passw0rd; MATCH {class: RateUser, where: (id = 5929)}-->{class: RateUser, as:RateUser1 } RETURN RateUser,RateUser1

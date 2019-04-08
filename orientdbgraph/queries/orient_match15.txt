@@ -1,0 +1,9 @@
+connect remote:localhost/bitcoin root passw0rd;
+SELECT expand(path) FROM (
+  SELECT shortestPath($from, $to) AS path 
+  LET 
+    $from = (SELECT FROM RateUser WHERE RateUserId==387), 
+    $to = (SELECT FROM RateUser WHERE RateUserId==104) 
+  where ($depth =3)
+  UNWIND path
+)
