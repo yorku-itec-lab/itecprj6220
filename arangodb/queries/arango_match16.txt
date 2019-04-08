@@ -1,0 +1,8 @@
+// prj6220 
+// arangodb shortest path 4
+
+
+//returns back the shortest_path
+
+FOR h1 IN ANY SHORTEST_PATH 'users/396' TO 'users/4104' GRAPH 'bcg' RETURN [h1._key]
+

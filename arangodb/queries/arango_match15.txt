@@ -1,0 +1,8 @@
+// prj6220 
+// arangodb shortest path 3
+
+//the following retrun 2 points or 3 points pathes
+  
+  FOR v, e, p IN 2..3 OUTBOUND "users/387" rate
+  FILTER v._id == "users/104"
+  RETURN CONCAT_SEPARATOR(" -> ", p.vertices[*]._key)

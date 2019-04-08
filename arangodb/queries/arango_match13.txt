@@ -1,0 +1,12 @@
+// prj6220 
+// arangodb shortest path 1
+
+// path length between two nodes
+
+RETURN LENGTH(
+  FOR v IN OUTBOUND
+    SHORTEST_PATH "users/387" TO "users/104" rate
+    RETURN v
+)
+
+

@@ -1,0 +1,10 @@
+// prj6220 
+// arangodb shortest path 2
+
+//The following query returns all parts with length 2, start vertex A and target vertex C:
+
+FOR v, e, p IN 2..2 OUTBOUND "users/387" rate
+  FILTER v._id == "users/104"
+  RETURN CONCAT_SEPARATOR(" -> ", p.vertices[*]._key)
+  
+
