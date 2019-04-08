@@ -2,7 +2,7 @@
 # This is provided for York University ITEC6220 project.
 # Anyone can use it for benchmark purpose with the 
 # acknowledgement to us.
-# Author: Tian Yang and John Li timyang@yorku.ca
+# Author: Tian Yang and John Li timyang@yorku.ca qiangl4y@yorku.ca
 ############################################################
 
 This article documents the details on how to reproduce the graph database benchmark result on MongoDB. 
