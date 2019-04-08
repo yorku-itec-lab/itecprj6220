@@ -1,0 +1,3 @@
+// benchmark MongoDB a2 levels
+
+db.cp.find( { $or: [ { program: /Canada/ }, { program: /National/ }, { program: /Toronto/ } ] } )

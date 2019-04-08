@@ -1,0 +1,3 @@
+// benchmark MongoDB a3 levels
+
+db.cp.find( { $and: [ { $and: [ { $and: [ { $or: [ { program: /Canada/ }, { program: /National/ }, { program: /Transit/ } ] }, { ultimateRecipient: /Lake/ } ] }, { category: /Public/ } ] }, { approvedDate: { $gt: '2017-01-01' } } ] } )

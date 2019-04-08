@@ -1,0 +1,2 @@
+// benchmark MongoDB a1 levels
+ db.cp find({program: /National/})
