@@ -1,0 +1,13 @@
+Import Execution took: 2 seconds
+Execution took: 2 seconds
+Import Execution took: 2938 seconds
+Import Execution took: 1814 seconds
+Import Execution took: 1891 seconds
+Import Execution took: 1739 seconds
+Import Execution took: 1989 seconds
+Import Execution took: 2220 seconds
+Import Execution took: 1923 seconds
+Execution took: 6030 seconds
+Execution took: 5772 seconds
+Execution took: 3420 seconds
+Execution took: 3408 seconds
