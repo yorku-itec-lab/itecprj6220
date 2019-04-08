@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo ./home/johnwill4a/dbbenchmark/orientdb-3.0.17/bin/server.sh
+
 echo "Orientdb testing started...\n ">>/home/johnwill4a/reports/orient_report.txt
 START=$(($(date +%s%N)/1000000))
 sudo ./home/johnwill4a/dbbenchmark/orientdb-3.0.17/bin/oetl.sh /home/johnwill4a/RateUsers.json >>/home/johnwill4a/reports/orient_report.txt
@@ -46,3 +48,23 @@ START8=$(($(date +%s%N)/1000000))
 sudo ./home/johnwill4a/dbbenchmark/orientdb-3.0.17/bin/console.sh orient_match8.txt >>/home/johnwill4a/reports/orient_report.txt
 END8=$(($(date +%s%N)/1000000))
 echo "Execution took: $((END8 - START8)) seconds" >>/home/johnwill4a/reports/orient_performance.txt
+echo "orient query 9 report...\n ">>/home/johnwill4a/reports/orient_report.txt
+START9=$(($(date +%s%N)/1000000))
+sudo ./home/johnwill4a/dbbenchmark/orientdb-3.0.17/bin/console.sh orient_match9.txt >>/home/johnwill4a/reports/orient_report.txt
+END9=$(($(date +%s%N)/1000000))
+echo "Execution took: $((END9 - START9)) seconds" >>/home/johnwill4a/reports/orient_performance.txt
+echo "orient query 10 report...\n ">>/home/johnwill4a/reports/orient_report.txt
+START10=$(($(date +%s%N)/1000000))
+sudo ./home/johnwill4a/dbbenchmark/orientdb-3.0.17/bin/console.sh orient_match10.txt >>/home/johnwill4a/reports/orient_report.txt
+END10=$(($(date +%s%N)/1000000))
+echo "Execution took: $((END10 - START10)) seconds" >>/home/johnwill4a/reports/orient_performance.txt
+echo "orient query 11 report...\n ">>/home/johnwill4a/reports/orient_report.txt
+START11=$(($(date +%s%N)/1000000))
+sudo ./home/johnwill4a/dbbenchmark/orientdb-3.0.17/bin/console.sh orient_match11.txt >>/home/johnwill4a/reports/orient_report.txt
+END11=$(($(date +%s%N)/1000000))
+echo "Execution took: $((END11 - START11)) seconds" >>/home/johnwill4a/reports/orient_performance.txt
+echo "orient query 12 report...\n ">>/home/johnwill4a/reports/orient_report.txt
+START12=$(($(date +%s%N)/1000000))
+sudo ./home/johnwill4a/dbbenchmark/orientdb-3.0.17/bin/console.sh orient_match12.txt >>/home/johnwill4a/reports/orient_report.txt
+END12=$(($(date +%s%N)/1000000))
+echo "Execution took: $((END12 - START12)) seconds" >>/home/johnwill4a/reports/orient_performance.txt

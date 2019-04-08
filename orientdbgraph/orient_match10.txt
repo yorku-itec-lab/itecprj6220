@@ -1,0 +1,6 @@
+connect remote:localhost/bitcoin root passw0rd;
+FOR i IN 1..1000
+  INSERT {
+    _from: "RateUser/a$i",
+    _to: "RateUser/b$i"
+  } INTO RateUser

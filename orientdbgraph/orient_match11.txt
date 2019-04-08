@@ -1,0 +1,4 @@
+connect remote:localhost/bitcoin root passw0rd;
+FOR i IN 1..10
+  FILTER r._from  == "RateUser/a$i"
+  REMOVE { _key: r._key } IN RateUser
