@@ -1,0 +1,5 @@
+FOR i IN 1..10
+  INSERT {
+    _from: "RateUser/a$i",
+    _to: "RateUser/b$i"
+  } INTO HasRated

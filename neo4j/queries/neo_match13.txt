@@ -1,0 +1,1 @@
+MATCH (u1:RateUser {RateUserId:387}),(u2:RateUser {RateUserId:104}), p = shortestPath((u1)-[:HasRated*]-(u2)) WHERE ALL (r IN relationships(p) WHERE exists(r.role)) RETURN p

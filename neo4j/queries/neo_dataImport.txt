@@ -1,0 +1,7 @@
+LOAD CSV WITH HEADERS FROM "file:///soc-sign-bitcoinotc.csv" AS row
+MERGE (u:RateUser {RateUserId: row.SOURCE})
+WITH *
+MATCH (u1:RateUser {RateUserId: row.TARGET})
+CREATE (u)-[r:HasRated]->(u1)
+SET r.rating = toInt(row.RATING),
+    r.timestamp = row.TIME;

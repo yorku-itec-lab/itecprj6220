@@ -1,0 +1,1 @@
+match (u1:RateUser)-[:HasRated]->(u2:RateUser)-[:HasRated]->(u3:RateUser)-[:HasRated]->(u4:RateUser) where u1.RateUserId='5929' return u1,u2, u3,u4;
