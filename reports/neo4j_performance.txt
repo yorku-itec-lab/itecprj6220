@@ -1,13 +1,13 @@
-Import Execution took: 2 seconds
-Execution took: 2 seconds
-Import Execution took: 2938 seconds
-Import Execution took: 1814 seconds
-Import Execution took: 1891 seconds
-Import Execution took: 1739 seconds
-Import Execution took: 1989 seconds
-Import Execution took: 2220 seconds
-Import Execution took: 1923 seconds
-Execution took: 6030 seconds
-Execution took: 5772 seconds
-Execution took: 3420 seconds
-Execution took: 3408 seconds
+Import Execution took: 399466 million seconds
+Query 1 Execution took: 1286 million seconds
+Query 2 Execution took: 1191 million seconds
+Query 3 Execution took: 1333 million seconds
+Query 4 Execution took: 2575 million seconds
+Query 5 Execution took: 16993 million seconds
+Query 6 Execution took: 1187 million seconds
+Query 7 Execution took: 1205 million seconds
+Query 8 Execution took: 1188 million seconds
+Query 9 Execution took: 2 million seconds
+Query 10 Execution took: 2 million seconds
+Query 11 Execution took: 1 million seconds
+Query 12 Execution took: 1 million seconds
