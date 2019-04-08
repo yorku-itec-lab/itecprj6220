@@ -42,5 +42,27 @@ echo "Execution took: $((END7 - START7)) seconds" >>/home/johnwill4a/reports/neo
 echo "neo4j query 8 report...\n ">>/home/johnwill4a/reports/neo4j_report.txt
 START8=$(($(date +%s%N)/1000000))
  /usr/bin/cypher-shell -u neo4j -p passw0rd < neo_match8.txt >>/home/johnwill4a/reports/neo4j_report.txt
-END8=$(($(date +%s%N)/1000000))
+END8=$(($(date +%s%N)/1000000))echo "neo4j query 9 report...\n ">>/home/johnwill4a/reports/neo4j_report.txt
 echo "Execution took: $((END8 - START8)) seconds" >>/home/johnwill4a/reports/neo4j_performance.txt
+echo "neo4j query 9 report...\n ">>/home/johnwill4a/reports/neo4j_report.txt
+START9=$(($(date +%s%N)/1000000))
+ /usr/bin/cypher-shell -u neo4j -p passw0rd < neo_match9.txt >>/home/johnwill4a/reports/neo4j_report.txt
+END9=$(($(date +%s%N)/1000000))
+echo "Execution took: $((END9 - START9)) seconds" >>/home/johnwill4a/reports/neo4j_performance.txt
+echo "neo4j query 10 report...\n ">>/home/johnwill4a/reports/neo4j_report.txt
+START10=$(($(date +%s%N)/1000000))
+/usr/bin/cypher-shell -u neo4j -p passw0rd < neo_match10.txt >>/home/johnwill4a/reports/neo4j_report.txt
+END10=$(($(date +%s%N)/1000000))
+echo "Execution took: $((END10 - START10)) seconds" >>/home/johnwill4a/reports/neo4j_performance.txt
+echo "neo4j query 11 report...\n ">>/home/johnwill4a/reports/neo4j_report.txt
+START11=$(($(date +%s%N)/1000000))
+/usr/bin/cypher-shell -u neo4j -p passw0rd < neo_match11.txt >>/home/johnwill4a/reports/neo4j_report.txt
+END11=$(($(date +%s%N)/1000000))
+echo "Execution took: $((END11 - START11)) seconds" >>/home/johnwill4a/reports/neo4j_performance.txt
+echo "neo4j query 12 report...\n ">>/home/johnwill4a/reports/neo4j_report.txt
+START12=$(($(date +%s%N)/1000000))
+/usr/bin/cypher-shell -u neo4j -p passw0rd < neo_match12.txt >>/home/johnwill4a/reports/neo4j_report.txt
+END12=$(($(date +%s%N)/1000000))
+echo "Execution took: $((END12 - START12)) seconds" >>/home/johnwill4a/reports/neo4j_performance.txt
+
+

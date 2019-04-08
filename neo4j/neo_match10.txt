@@ -1,0 +1,5 @@
+FOR i IN 1..1000
+  INSERT {
+    _from: "users/a$i",
+    _to: "users/b$i"
+  } INTO rate

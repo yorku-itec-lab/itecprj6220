@@ -1,0 +1,3 @@
+FOR i IN 1..10
+  FILTER r._from  == "users/a$i"
+  REMOVE { _key: r._key } IN rate

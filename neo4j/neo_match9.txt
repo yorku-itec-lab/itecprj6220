@@ -1,0 +1,5 @@
+FOR i IN 1..10
+  INSERT {
+    _from: "users/ai",
+    _to: "users/bi"
+  } INTO rate
