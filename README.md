@@ -5,7 +5,7 @@ ArangoDB vs MongoDB vs OrientDB vs Neo4j
 We are using the same datasets, same query workload, and same enviroment cross validation of result each graph database's benchmark.
 
 DB versions:
-=============
+----------------------
 
 Orientdb Community Edition 3.0.17 
 Neo4j Community Edition 3.4.12
@@ -13,7 +13,7 @@ ArangoDB Community Edition 3.4.4
 MongoDB Community Edition version v4.0.8
 
 VM instance details:
-====================
+----------------------
 
 custom (4 vCPU,20 GB memory)
 Intel Haswell
@@ -21,7 +21,7 @@ Ubuntu 18.04 LTS amd64 bionic image built
 
 
 Datasets:
-==========
+----------------------
 
 Part I Bitcoin Alpha trust weighted signed network 
 
