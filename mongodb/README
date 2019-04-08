@@ -32,6 +32,7 @@ Intel Haswell
 MongoDB Version
 =================
 - MongoDB Compass Community 1.17.0 
+https://docs.mongodb.com/compass/master/install/
 
 # install MongoDB
 # set password="root" for the root user
@@ -39,7 +40,7 @@ MongoDB Version
 Scripts and Results under Github
 =================================
 
-https://github.com/yorku-itec-lab/prj6220/tree/master/MongoDB
+https://github.com/yorku-itec-lab/itecprj6220/edit/master/mongodb/
  
 Run benchmark 
 ==============
