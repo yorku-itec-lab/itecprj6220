@@ -12,6 +12,16 @@ This is who-trusts-whom network of people who trade using Bitcoin on a platform 
 
 Part II Infrastructure Canada Projects 
 
-As for now we only completed ArangoDB and MongoDB comparing based on this dataset. Index and search text by using Infrastructure Canada Projects Data. The publisher - Current Organization Name: Infrastructure Canada, This dataset contains a list of infrastructure projects across Canada that have been approved by Infrastructure Canada. The project information listed is based on current information.
+Index and search text by using Infrastructure Canada Projects Data. The publisher - Current Organization Name: Infrastructure Canada, This dataset contains a list of infrastructure projects across Canada that have been approved by Infrastructure Canada. The project information listed is based on current information.
 
 The report will be sent upon request.
+
+
+Orientdb Community Edition 3.0.17 
+Neo4j Community Edition 3.4.12
+ArangoDB Community Edition 3.4.4
+
+VM instance details
+custom (1 vCPU, 6.5 GB memory)
+Intel Haswell
+Ubuntu 18.04 LTS amd64 bionic image built
