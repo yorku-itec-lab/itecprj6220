@@ -1,0 +1,4 @@
+// prj6220 
+// benchmark MongoDB 3 levels
+
+db.bc.find({rater: {$in:[db.bc.find({rater: {$in:[db.bc.find({rater:"5929"},{ratee:1}).map(function(r) {return r.ratee;});]}},{ratee:1})]}},{ratee:1})

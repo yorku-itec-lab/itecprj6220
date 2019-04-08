@@ -1,0 +1,4 @@
+// prj6220 
+// benchmark MongoDB sort and return top 100
+
+db.bc.find().sort( { rater: 1 } ).limit( 100 )

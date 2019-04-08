@@ -1,0 +1,4 @@
+// prj6220 
+// benchmark MongoDB1 levels
+
+db.bc.find({rater:"5929"},{ratee:1}).map(function(r) {return r.ratee;});

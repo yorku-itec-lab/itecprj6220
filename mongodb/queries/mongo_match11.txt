@@ -1,0 +1,9 @@
+// prj6220 
+// prj6220 benchmark MongoDB delete 10
+
+for (var i = 0; i < 10; i=i+1){
+    db.people.insertOne(
+      { rater: "a" }
+    )
+}
+  
