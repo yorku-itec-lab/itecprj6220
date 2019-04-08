@@ -22,6 +22,6 @@ Neo4j Community Edition 3.4.12
 ArangoDB Community Edition 3.4.4
 
 VM instance details
-custom (1 vCPU, 6.5 GB memory)
+custom (4 vCPU,20 GB memory)
 Intel Haswell
 Ubuntu 18.04 LTS amd64 bionic image built
