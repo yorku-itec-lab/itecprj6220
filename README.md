@@ -2,9 +2,26 @@
 This is created for ITEC6220 Project Graph Database Benchmark: 
 ArangoDB vs MongoDB vs OrientDB vs Neo4j
 
-Basic ideas: By using the same datasets, same query workload, and same enviroment cross validation of result each graph database's benchmark.
+We are using the same datasets, same query workload, and same enviroment cross validation of result each graph database's benchmark.
+
+DB versions:
+=============
+
+Orientdb Community Edition 3.0.17 
+Neo4j Community Edition 3.4.12
+ArangoDB Community Edition 3.4.4
+MongoDB Community Edition version v4.0.8
+
+VM instance details:
+====================
+
+custom (4 vCPU,20 GB memory)
+Intel Haswell
+Ubuntu 18.04 LTS amd64 bionic image built
+
 
 Datasets:
+==========
 
 Part I Bitcoin Alpha trust weighted signed network 
 
@@ -16,12 +33,3 @@ Index and search text by using Infrastructure Canada Projects Data. The publishe
 
 The report will be sent upon request.
 
-
-Orientdb Community Edition 3.0.17 
-Neo4j Community Edition 3.4.12
-ArangoDB Community Edition 3.4.4
-
-VM instance details
-custom (4 vCPU,20 GB memory)
-Intel Haswell
-Ubuntu 18.04 LTS amd64 bionic image built
