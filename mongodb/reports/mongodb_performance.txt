@@ -11,10 +11,6 @@ Query 9 Execution took: 656 ms
 Query 10 Execution took: 2661 ms
 Query 11 Execution took: 150 ms
 Query 12 Execution took: 1030 ms
-Query 13 Execution took: 2359 ms
-Query 14 Execution took: 2478 ms
-Query 15 Execution took: 13300 ms
-Query 16 Execution took: 527 ms
 Query 1 Execution took: 674 ms
 Query 2 Execution took: 993 ms
 Query 3 Execution took: 1304 ms
@@ -27,10 +23,6 @@ Query 9 Execution took: 586 ms
 Query 10 Execution took: 3430 ms
 Query 11 Execution took: 111 ms
 Query 12 Execution took: 978 ms
-Query 13 Execution took: 2995 ms
-Query 14 Execution took: 2500 ms
-Query 15 Execution took: 13342 ms
-Query 16 Execution took: 571 ms
 Query 1 Execution took: 479 ms
 Query 2 Execution took: 628 ms
 Query 3 Execution took: 1959 ms
@@ -43,10 +35,6 @@ Query 9 Execution took: 675 ms
 Query 10 Execution took: 4710 ms
 Query 11 Execution took: 114 ms
 Query 12 Execution took: 949 ms
-Query 13 Execution took: 3618 ms
-Query 14 Execution took: 2380 ms
-Query 15 Execution took: 13640 ms
-Query 16 Execution took: 604 ms
 Query 1 Execution took: 642 ms
 Query 2 Execution took: 819 ms
 Query 3 Execution took: 1313 ms
@@ -59,10 +47,6 @@ Query 9 Execution took: 692 ms
 Query 10 Execution took: 5182 ms
 Query 11 Execution took: 84 ms
 Query 12 Execution took: 927 ms
-Query 13 Execution took: 4422 ms
-Query 14 Execution took: 2325 ms
-Query 15 Execution took: 18334 ms
-Query 16 Execution took: 610 ms
 Query 1 Execution took: 456 ms
 Query 2 Execution took: 932 ms
 Query 3 Execution took: 1512 ms
@@ -75,10 +59,6 @@ Query 9 Execution took: 756 ms
 Query 10 Execution took: 6462 ms
 Query 11 Execution took: 86 ms
 Query 12 Execution took: 1106 ms
-Query 13 Execution took: 3799 ms
-Query 14 Execution took: 2454 ms
-Query 15 Execution took: 20216 ms
-Query 16 Execution took: 594 ms
 Query 1 Execution took: 465 ms
 Query 2 Execution took: 749 ms
 Query 3 Execution took: 1782 ms
@@ -91,10 +71,6 @@ Query 9 Execution took: 605 ms
 Query 10 Execution took: 8585 ms
 Query 11 Execution took: 69 ms
 Query 12 Execution took: 1422 ms
-Query 13 Execution took: 5141 ms
-Query 14 Execution took: 2002 ms
-Query 15 Execution took: 29043 ms
-Query 16 Execution took: 641 ms
 Query 1 Execution took: 339 ms
 Query 2 Execution took: 388 ms
 Query 3 Execution took: 1541 ms
@@ -107,10 +83,6 @@ Query 9 Execution took: 434 ms
 Query 10 Execution took: 5933 ms
 Query 11 Execution took: 46 ms
 Query 12 Execution took: 1948 ms
-Query 13 Execution took: 7018 ms
-Query 14 Execution took: 1876 ms
-Query 15 Execution took: 31705 ms
-Query 16 Execution took: 684 ms
 Query 1 Execution took: 252 ms
 Query 2 Execution took: 532 ms
 Query 3 Execution took: 2509 ms
@@ -123,10 +95,6 @@ Query 9 Execution took: 429 ms
 Query 10 Execution took: 6066 ms
 Query 11 Execution took: 27 ms
 Query 12 Execution took: 2018 ms
-Query 13 Execution took: 7434 ms
-Query 14 Execution took: 2326 ms
-Query 15 Execution took: 34764 ms
-Query 16 Execution took: 727 ms
 Query 1 Execution took: 358 ms
 Query 2 Execution took: 305 ms
 Query 3 Execution took: 2907 ms
@@ -139,10 +107,6 @@ Query 9 Execution took: 297 ms
 Query 10 Execution took: 7997 ms
 Query 11 Execution took: 29 ms
 Query 12 Execution took: 2102 ms
-Query 13 Execution took: 6622 ms
-Query 14 Execution took: 2654 ms
-Query 15 Execution took: 51197 ms
-Query 16 Execution took: 785 ms
 Query 1 Execution took: 273 ms
 Query 2 Execution took: 302 ms
 Query 3 Execution took: 3493 ms
@@ -155,7 +119,3 @@ Query 9 Execution took: 364 ms
 Query 10 Execution took: 8919 ms
 Query 11 Execution took: 34 ms
 Query 12 Execution took: 2262 ms
-Query 13 Execution took: 6995 ms
-Query 14 Execution took: 3172 ms
-Query 15 Execution took: 45070 ms
-Query 16 Execution took: 666 ms
